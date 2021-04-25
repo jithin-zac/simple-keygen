@@ -1,7 +1,7 @@
 {
   "name": "simple-keygen",
-  "version": "1.0.2",
-  "description": "Simple keygen using Node.JS crypto module",
+  "version": "1.0.3",
+  "description": "Simple keygen and verifier using Node.JS crypto module",
   "main": "index.js",
   "scripts": {
     "start": "node ./scripts/keygen.js"
