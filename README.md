@@ -18,7 +18,7 @@ npm install simple-keygen
 [Generate](https://travistidwell.com/jsencrypt/demo/) an RSA Public/Private key pair and save it to your machine.  
 To generate licenses after installing the package globally, run the command ```simple-keygen``` on your terminal.
 
-![alt text](https://github.com/jithin-zachariah/simple-product-keygen/blob/ad9284623735e49fe657ce773cf22696fd3c562b/simple-keygen.png?raw=true)
+[![simple-keygen.png](https://i.postimg.cc/Fs2ynDnw/simple-keygen.png)](https://postimg.cc/bs9SZHPR)
 
 To verify the generated and distributed licenses.
 
