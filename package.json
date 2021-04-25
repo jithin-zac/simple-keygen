@@ -1,0 +1,24 @@
+{
+  "name": "simple-product-keygen",
+  "version": "1.0.0",
+  "description": "Simple keygen using Node.JS crypto module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./scripts/keygen.js"
+  },
+  "bin": {
+    "simple-keygen": "./scripts/keygen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-jithin-zachariah:jithin-zachariah/simple-product-keygen.git"
+  },
+  "author": "Jithin Zachariah",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "inquirer": "^8.0.0",
+    "inquirer-datepicker": "^2.0.0",
+    "moment": "^2.29.1"
+  }
+}
