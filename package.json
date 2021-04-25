@@ -1,6 +1,6 @@
 {
   "name": "simple-keygen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple keygen using Node.JS crypto module",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,21 @@
   "bin": {
     "simple-keygen": "./scripts/keygen.js"
   },
+  "keywords": [
+    "license",
+    "keygen",
+    "crypto",
+    "product key",
+    "verify"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com-jithin-zachariah:jithin-zachariah/simple-keygen.git"
   },
+  "bugs": {
+    "url": "https://github.com/jithin-zachariah/simple-keygen/issues"
+  },
+  "homepage": "https://github.com/jithin-zachariah/simple-keygen#readme",
   "author": "Jithin Zachariah",
   "license": "MIT",
   "dependencies": {

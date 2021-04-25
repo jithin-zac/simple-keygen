@@ -10,3 +10,12 @@ module.exports = class SimpleKeygen {
     return checkLicense(licensekey, this.publicKeyPath);
   };
 };
+
+keygen
+  .verifyLicense("your license key")
+  .then((status) => {
+    console.log(status);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
