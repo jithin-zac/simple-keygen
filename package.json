@@ -1,5 +1,5 @@
 {
-  "name": "simple-product-keygen",
+  "name": "simple-keygen",
   "version": "1.0.0",
   "description": "Simple keygen using Node.JS crypto module",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com-jithin-zachariah:jithin-zachariah/simple-product-keygen.git"
+    "url": "git@github.com-jithin-zachariah:jithin-zachariah/simple-keygen.git"
   },
   "author": "Jithin Zachariah",
   "license": "MIT",
