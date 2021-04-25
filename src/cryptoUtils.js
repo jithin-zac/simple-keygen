@@ -1,4 +1,5 @@
 const Crypto = require("crypto");
+const moment = require("moment");
 
 const generateLicenseKey = (payload, privateKey) => {
   // Create a RSA signer
@@ -47,9 +48,9 @@ const verifyKeyValidity = (licenseData) => {
     return { valid: false, status: "EXPIRED_KEY" };
   } else {
     const end = moment(licenseData.endDate);
-    const { plan, licensee } = licenseData;
+    const { licensee } = licenseData;
     const validity = end.diff(timeStamp, "days");
-    return { valid: true, status: "SUCCESS", validity, plan, licensee };
+    return { valid: true, status: "SUCCESS", validity, licensee };
   }
 };
 

@@ -1,12 +1,12 @@
-const { createLicense, checklicense } = require("./licenseController");
+const { checkLicense } = require("./licenseController");
 
-export class simpleKeygen {
-  publicKey = "";
-  constructor(publicKey) {
-    this.publicKey = publicKey;
+module.exports = class SimpleKeygen {
+  publicKeyPath = "";
+  constructor(publicKeyPath) {
+    this.publicKeyPath = publicKeyPath;
   }
 
   verifyLicense = async (licensekey) => {
-    return checklicense(licensekey, this.publicKey);
+    return checkLicense(licensekey, this.publicKeyPath);
   };
-}
+};
