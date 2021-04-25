@@ -16,7 +16,7 @@ const question1 = {
   type: "input",
   name: "privateKeyPath",
   message:
-    "Please enter the abosulte path to your RSA privateKey that can be used to sign the license key",
+    "Please enter the absolute path to your RSA privateKey that can be used to sign the license key",
 };
 
 const question2 = {
@@ -54,7 +54,7 @@ const question7 = {
   type: "input",
   name: "saveDir",
   message:
-    "Enter the absolute path to direco=tory where you want to save the license file",
+    "Enter the absolute path to directory where you want to save the license file",
 };
 const readKey = (privateKeyPath) => {
   return new Promise((resolve, reject) => {
@@ -117,7 +117,7 @@ const generateKey = async () => {
 
       console.log(
         chalk.white(
-          `License key file "${licensee}-ngtp-ui.key" has been saved to the directory: ${saveDir}`
+          `License key file "${licensee}.key" has been saved to the directory: ${saveDir}`
         )
       );
       resolve(licenseKey);
